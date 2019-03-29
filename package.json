@@ -1,0 +1,14 @@
+{
+  "name": "jeu-de-grattage-imagraph",
+  "version": "1.0.0",
+  "description": "Jeu de grattage pour l'entreprise Imagraph",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Palmier",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

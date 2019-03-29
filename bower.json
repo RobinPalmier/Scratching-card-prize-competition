@@ -1,0 +1,20 @@
+{
+  "name": "Jeu-de-grattage-Imagraph",
+  "authors": [
+    "Robin Palmier <robinpalmier98@gmail.com>"
+  ],
+  "description": "Jeu de grattage pour l'entreprise Imagraph",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "index.php",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scratch-card": "SaifJerbi/scratch-card#^1.0.1"
+  }
+}
