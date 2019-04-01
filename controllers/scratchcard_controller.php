@@ -22,7 +22,7 @@ else{
     }
     
     // On récupère ces cartes et on regarde si elles font partie des cartes gagnantes qui sont enregistrées en base de données.
-    foreach($tab as $value){
+    foreach($_SESSION['user']['nombre'] as $value){
 
         $recupCard = $db->prepare("SELECT * FROM `wincard` WHERE participant_id = 0 AND nombre = ?");
         $recupCard->execute([$value]);
